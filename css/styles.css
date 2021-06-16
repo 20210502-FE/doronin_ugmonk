@@ -490,7 +490,8 @@ img {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    padding: 84px 0 88px 0;
+    padding-top: 84px;
+    padding-bottom: 104px;
 }
 
 .footer__nav a {
@@ -502,16 +503,20 @@ img {
     color: #929b8b;
 }
 
-.footer__nav_left {
+.footer__nav-list {
+    max-width: 403px;
     display: flex;
-    font-size: 15px;
-    line-height: 15px;
+    flex-wrap: wrap;
+    margin-top: -16px;
 }
 
 .footer__nav-item {
-    padding-bottom: 16px;
-    padding-right: 157px;
+    flex-basis: 50%;
+    max-width: 50%;
+    font-size: 15px;
+    line-height: 15px;
     font-family: 'Roboto', sans-serif;
+    padding-top: 16px;
 }
 
 .footer__right-wrapper{
