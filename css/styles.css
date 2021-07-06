@@ -259,7 +259,7 @@ img {
 }
 
 .advertising {
-    padding: 127px 140px;
+    padding: 127px 0;
     background-color: #CED3CA;
 }
 
@@ -311,8 +311,7 @@ img {
 
 .shops__text {
     margin-bottom: 92px;
-    width: 630px;
-    height: 72px;
+    max-width: 630px;
     font-size: 30px;
     line-height: 36px;
     text-align: center;
@@ -468,7 +467,7 @@ img {
 .contact__text p {
     font-size: 17px;
     line-height: 22px;
-    margin: 0 533px;
+    max-width: 373px;
     margin-bottom: 56px;
 }
 
@@ -531,7 +530,7 @@ img {
     text-align: center;
 }
 
-.footer__text {
+.footer__inner {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -541,10 +540,15 @@ img {
     max-width: 233px;
     max-height: 42px;
     text-align: right;
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 }
 
-.footer__text p {
+.footer__text {
+    margin-right: 12px;
+}
+
+.footer__inner p {
+    margin-top: 9px;
     margin-right: 12px;
 }
 
@@ -555,10 +559,10 @@ img {
     max-height: 88px;
 }
 
-.footer__copyright_social {
+.footer__socials {
     display: flex;
 }
 
-.footer__copyright_social a {
+.footer__socials a {
     margin-left: 16px;
 }
